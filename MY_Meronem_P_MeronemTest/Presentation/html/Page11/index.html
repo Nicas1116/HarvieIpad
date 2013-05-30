@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--html manifest="app.manifest"-->
+<html>
+<head>
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<META name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Meronem</title>
+<link href="../css/meronem_style.css" type="text/css" rel="stylesheet">
+<link href="../css/reset.css" type="text/css" rel="stylesheet">
+<script src="../js/jQuery.js"></script>
+<script src="../js/merenem_js.js"></script>
+<script type="text/javascript" src="resource://js/SystemBridge.js"></script>
+</head>	
+<body>
+<div id="page_base">
+  <div class="normalbg">
+    <div class="meo_icon"></div>
+    <div class="slideTitlePageIndication3"><img src="../images/Indication3_title.png"/></div>
+    <div class="slideDescPageIndication3"><img src="../images/Indication3_desc1.png"/></div>
+    <div class="slideGraphPageIndication3"><img src="../images/Indication3_graph1.png"/></div>
+    <div class="slideGraphRefPageIndication3"><img src="../images/Indication3_graphref1.png"/></div>
+    <div class="navigation_all" style="display:block;">
+    	<div id="btnHome" class="navitem"><img src="../images/navigation_btnHome.png" /></div>
+        <div id="btnBoard" class="navitem"><img src="../images/navigation_btnBroadSpectrum.png" /></div>
+        <div id="btnCompare" class="navitem"><img src="../images/navigation_btnComparison.png" /></div>
+        <div id="btnIndicatioin" class="navitem"><img src="../images/navigation_btnIndications.png" /></div>
+        <div id="btnTolera" class="navitem"><img src="../images/navigation_btnTolerability.png" /></div>
+        <div id="btnDosing" class="navitem"><img src="../images/navigation_btnDosing.png" /></div>
+        <div id="btnTrust" class="navitem"><img src="../images/navigation_btnTrust.png" /></div>
+        <div id="btnSummary" class="navitem"><img src="../images/navigation_btnSummary.png" /></div>
+        <div id="btnPreseInfo" class="navitem"><img src="../images/navigation_btnPreseInfo.png" /></div>
+		<br class="clear"/>
+    </div>
+  </div>
+  <div class="bottom-img"></div>
+</div>
+<script>
+$(document).ready(function(e) {
+    callPageAnimation(11);
+});
+</script>
+</body>
