@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9207DDBC173ACAAA00974841 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9207DDBB173ACAAA00974841 /* MobileCoreServices.framework */; };
+		C12BB03C1757A7B7007BB93E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C12BB0391757A7B7007BB93E /* en.lproj */; };
+		C12BB03E1757A7B7007BB93E /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = C12BB03B1757A7B7007BB93E /* Presentation */; };
 		E93B201B17578F7D00018AF7 /* MY_Meronem_P_MeronemTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E93B201517578EF300018AF7 /* MY_Meronem_P_MeronemTest.bundle */; };
 		E93B201C17578F8400018AF7 /* MY_Meronem_P_MeronemTest.bundle in Copy Content Packs */ = {isa = PBXBuildFile; fileRef = E93B201517578EF300018AF7 /* MY_Meronem_P_MeronemTest.bundle */; };
-		E9D6FDAC17579210002AE38C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E9D6FDA917579210002AE38C /* en.lproj */; };
-		E9D6FDAD17579210002AE38C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9D6FDAA17579210002AE38C /* Info.plist */; };
-		E9D6FDAE17579210002AE38C /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = E9D6FDAB17579210002AE38C /* Presentation */; };
 		F941AB8B1678ED25008A6A7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8A1678ED25008A6A7F /* UIKit.framework */; };
 		F941AB8D1678ED25008A6A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8C1678ED25008A6A7F /* Foundation.framework */; };
 		F941AB8F1678ED25008A6A7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941AB8E1678ED25008A6A7F /* CoreGraphics.framework */; };
@@ -48,10 +47,10 @@
 
 /* Begin PBXFileReference section */
 		9207DDBB173ACAAA00974841 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C12BB0391757A7B7007BB93E /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = MY_Meronem_P_MeronemTest/en.lproj; sourceTree = SOURCE_ROOT; };
+		C12BB03A1757A7B7007BB93E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MY_Meronem_P_MeronemTest/Info.plist; sourceTree = SOURCE_ROOT; };
+		C12BB03B1757A7B7007BB93E /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Presentation; path = MY_Meronem_P_MeronemTest/Presentation; sourceTree = SOURCE_ROOT; };
 		E93B201517578EF300018AF7 /* MY_Meronem_P_MeronemTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY_Meronem_P_MeronemTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D6FDA917579210002AE38C /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
-		E9D6FDAA17579210002AE38C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D6FDAB17579210002AE38C /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
 		F941AB861678ED25008A6A7F /* MY_MeronemTestEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MY_MeronemTestEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F941AB8A1678ED25008A6A7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F941AB8C1678ED25008A6A7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,13 +99,12 @@
 		E93B201617578F4D00018AF7 /* MY_Meronem_P_MeronemTest */ = {
 			isa = PBXGroup;
 			children = (
-				E9D6FDA917579210002AE38C /* en.lproj */,
-				E9D6FDAA17579210002AE38C /* Info.plist */,
-				E9D6FDAB17579210002AE38C /* Presentation */,
+				C12BB0391757A7B7007BB93E /* en.lproj */,
+				C12BB03A1757A7B7007BB93E /* Info.plist */,
+				C12BB03B1757A7B7007BB93E /* Presentation */,
 			);
-			name = MY_Meronem_P_MeronemTest;
-			path = /Users/yinlu/Desktop/Harvie/TEST/MY_MeronemTestEx/MY_Meronem_P_MeronemTest;
-			sourceTree = "<absolute>";
+			path = MY_Meronem_P_MeronemTest;
+			sourceTree = "<group>";
 		};
 		F941AB7B1678ED25008A6A7F = {
 			isa = PBXGroup;
@@ -248,9 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D6FDAC17579210002AE38C /* en.lproj in Resources */,
-				E9D6FDAD17579210002AE38C /* Info.plist in Resources */,
-				E9D6FDAE17579210002AE38C /* Presentation in Resources */,
+				C12BB03C1757A7B7007BB93E /* en.lproj in Resources */,
+				C12BB03E1757A7B7007BB93E /* Presentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
